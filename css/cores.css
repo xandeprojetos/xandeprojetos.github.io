@@ -1,0 +1,8 @@
+:root{
+    --branco: #fff;
+    --cinza: #b2b2b2;
+    --preto: #000;
+    --preto-claro: #111111;
+    --laranja: #FFBB00;
+    --linear-laranja: linear-gradient(#ffbf00, #f2a50c);
+}

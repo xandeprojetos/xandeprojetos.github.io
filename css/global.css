@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1200px;
+    padding-bottom: 600px;
+}
+
+h1, h2, h3, h4, ul, p{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    
+}
+
+/* nessas linhas de códigos se define que todas img.jpg irão ter um border-radius nesse modelo*/
+img[src$=".jpg"] {           
+    border-radius: 4px;
+}
+
+
+
+
+
+.introducao-bg {
+    background: #000000;
+    color: #ffffff;
+    box-shadow:  inset 0 -120px #ffffff;
+  }
